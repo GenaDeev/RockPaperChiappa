@@ -8,16 +8,40 @@
   "description": "Jugá al clásico piedra papel o tijera contra tu profe favorito: Fede Chiappa!",
   "icons": [
     {
-      "src": "/web-app-manifest-192x192.png",
+      "src": "/assets/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/web-app-manifest-512x512.png",
+      "src": "/assets/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/screenshot2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/screenshot-m.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/assets/screenshot2-m.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
     }
   ],
   "lang": "es"
