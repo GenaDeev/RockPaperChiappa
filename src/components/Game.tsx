@@ -28,6 +28,8 @@ export const Game = ({ setUserScore, setGameActive }: GameProps) => {
     "scissors",
   ];
 
+  setCharacter(characters.chiappa);
+
   const handleStartGame = () => {
     setDisclaimerOpen(false);
     setUserScore(0);
@@ -78,7 +80,6 @@ export const Game = ({ setUserScore, setGameActive }: GameProps) => {
       handleNewMessage("happy");
     }
   };
-
   return disclaimerOpen ? (
     <Disclaimer handleStartGame={handleStartGame} />
   ) : (
